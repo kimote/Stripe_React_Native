@@ -3,7 +3,7 @@ import React, { useState, useEffect} from 'react'
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native'
 import { WebView } from 'react-native-webview'
 
-const STRIPE_PK = 'pk_test_gkEAGFAdUkkaZtIHSXbW1jCm00aS7wS0PA'
+const STRIPE_PK = 'pk_test_51M9oJ5FVYKlnp72edc7dhXOYkrWtMQZ7p95jChycKSfM6zLUqahXNXNAFzAvD682Lin5US8RckBjLtQOIuEwQYlV00PA6jiYoX'
 
 
 const PaymentView = (props) => { 
@@ -14,7 +14,6 @@ const PaymentView = (props) => {
     const onCheckStatus = (response) => {
         props.onCheckStatus(response)
     }
-
 
     const htmlContent = `
     

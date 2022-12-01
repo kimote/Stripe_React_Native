@@ -26,7 +26,7 @@ const PaymentScreen = () => {
         try {
     
             const stripeResponse = await axios.post('http://localhost:8000/payment', {
-                email: 'codergogoi@gmail.com',
+                email: 'kimotezoko@gmail.com',
                 product: cartInfo,
                 authToken: jsonResponse
             })
